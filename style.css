@@ -2,6 +2,7 @@
 
 img {
   align-self: center;
+ 
 }
 
 
@@ -28,8 +29,29 @@ h1 {
 
 /* computer */
 @media screen and (min-width: 600px) {
-
-
-
+  body{
+background-color: #2e1c69;
+  }
+h1 {
+  color: yellow
+}
+a {
+  color: yellow;
+}
 }
 
+.navi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+li{
+  color: white;
+}
+h2{
+  color: white;
+}

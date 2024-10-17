@@ -30,14 +30,17 @@ h1 {
 /* computer */
 @media screen and (min-width: 600px) {
   body{
-background-color: #2e1c69;
-  }
+background-image: repeating-linear-gradient(to right, black, black 200px, #343434 200px, #343434 400px);
+/*So as far as I'm aware, this makes a gradient from black to black that's 200px, then a gradient
+from grey to grey that starts at 200px to cut off the black, then goes on for another 200px (which ends it as 400px)*/  
+}
 h1 {
   color: yellow
 }
 a {
   color: yellow;
 }
+
 p {
   color: white;
 }
@@ -63,6 +66,7 @@ h1 {
 a {
   color: yellow;
 }
+
 p {
   color: white;
 }
@@ -88,4 +92,7 @@ li{
 }
 h2{
   color: white;
+}
+a:hover {
+  color:aqua;
 }

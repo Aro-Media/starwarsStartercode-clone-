@@ -38,6 +38,8 @@ h1 {
 a {
   color: yellow;
 }
+p {
+  color: white;
 }
 
 .navi {
@@ -49,6 +51,38 @@ a {
   display: flex;
   justify-content: center;
 }
+}
+
+@media screen and (max-width: 600px) {
+  body{
+background-color: black;
+  }
+h1 {
+  color: yellow
+}
+a {
+  color: yellow;
+}
+p {
+  color: white;
+}
+
+.navi {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+}
+
+
 li{
   color: white;
 }

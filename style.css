@@ -30,7 +30,8 @@ h1 {
 /* computer */
 @media screen and (min-width: 600px) {
   body{
-background-image: repeating-linear-gradient(to right, black, black 200px, #343434 200px, #343434 400px);
+    background-color: black;
+/*background-image: repeating-linear-gradient(to right, black, black 200px, #343434 200px, #343434 400px);*/
 /*So as far as I'm aware, this makes a gradient from black to black that's 200px, then a gradient
 from grey to grey that starts at 200px to cut off the black, then goes on for another 200px (which ends it as 400px)*/  
 }
